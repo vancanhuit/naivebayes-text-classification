@@ -6,7 +6,7 @@ import re
 
 def preprocess_text(text):
     stopwords_set = set(stopwords.words('english'))
-    pattern = re.compile(r'[^a-z]')
+    pattern = re.compile(r"[^a-z']")
     replacement = ' '
 
     processed_text = re.sub(pattern, replacement, text.lower())

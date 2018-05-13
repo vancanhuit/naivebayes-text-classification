@@ -26,7 +26,7 @@ class TestHelpers(object):
         count = helpers.count_docs_in_label(training_set, 'L1')
         assert count == 2
 
-    def test_concencate_text_of_all_docs_in_label(self):
+    def test_get_all_docs_in_label(self):
         training_set = [
             ({'a': 3, 'b': 2}, 'L1'),
             ({'a': 1, 'c': 2}, 'L2'),

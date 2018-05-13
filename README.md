@@ -1,6 +1,6 @@
 # Text classification with Multinomial Naive Bayes implemented in python 3
 
-# Tools
+## Tools
 - Install python 3.5+.
 - Install [NLTK](http://www.nltk.org/) package for basic NLP processing.
 
@@ -17,7 +17,7 @@
    $ [sudo] pip install scikit-learn
    ```
 
-# Usage
+## Usage
 - Run the command below to train data:
 
     ```bash
